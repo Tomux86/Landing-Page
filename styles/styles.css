@@ -1,18 +1,23 @@
 @font-face {
     font-family: "Roboto";
-    src: url('../fonts/Roboto-Italic-VariableFont_wdth,wght.ttf');
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 body {
     margin: 0;
-    padding: 25rem;
+    padding: 20rem;
     padding-top: 0.50rem;
     background-color: #2E2E2E;
     font-family: 'Roboto', serif;
 }
 
 header {
-    background-color: #31445e;
+    background-color: #405a7e;
+}
+
+.section-header {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .father {
@@ -26,12 +31,13 @@ header {
 .father .firts {
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .father .second {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    
+    color: #BDBDBD;
 }
 
