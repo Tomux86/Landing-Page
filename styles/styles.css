@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Italic-VariableFont_wdth,wght.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 25rem;
+    padding-top: 0.50rem;
+    background-color: #2E2E2E;
+    font-family: 'Roboto', serif;
+}
+
+header {
+    background-color: #31445e;
+}
+
+.father {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.75rem;
+    margin: 0.25rem;
+}
+
+.father .firts {
+    display: flex;
+    justify-content: center;
+}
+
+.father .second {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
