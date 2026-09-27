@@ -89,3 +89,41 @@ header {
     width: 400px;
     background-color: #5F7399;
 }
+
+.father-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #F0F0F0;
+
+    padding-top: 2rem;
+}
+
+.father-items span {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.father-items article {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.section-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+
+}
+
+.items {
+    border: 0.1rem solid #4273FF;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 8rem;
+}
