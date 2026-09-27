@@ -13,19 +13,20 @@ body {
 
 header {
     background-color: #405a7e;
+    color: white;
 }
 
 .section-header {
     padding-left: 5rem;
     padding-right: 5rem;
+
+    font-size: 1rem;
+    margin: 0.25rem;
 }
 
 .father {
     display: flex;
     justify-content: space-between;
-    color: white;
-    font-size: 0.75rem;
-    margin: 0.25rem;
 }
 
 .father .firts {
@@ -41,3 +42,37 @@ header {
     color: #BDBDBD;
 }
 
+.section-header .firts-two {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: bold;
+} 
+
+.text-format {
+    white-space: pre-line;
+    color: #a09c9c;
+    font-size: 0.8rem;
+}
+
+.button {
+    width: fit-content;
+    font-weight: bold;
+    font-size: 0.8rem;
+    background-color: #3072F2;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+}
