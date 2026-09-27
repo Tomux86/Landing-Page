@@ -11,6 +11,10 @@ body {
     font-family: 'Roboto', serif;
 }
 
+.section-body {
+    background-color: #F0F0F0;
+}
+
 header {
     background-color: #405a7e;
     color: white;
@@ -96,7 +100,6 @@ header {
     align-items: center;
     flex-direction: column;
 
-    background-color: #F0F0F0;
 
     padding-top: 2rem;
 }
@@ -126,4 +129,22 @@ header {
     border-radius: 0.5rem;
     width: 8rem;
     height: 8rem;
+}
+
+.text-inspiration {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 5rem;
+    background-color: #bebebe;
+}
+
+.inspiration {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#author {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
